@@ -211,7 +211,7 @@ header {
     flex-direction: row;
     justify-content: start;
     align-items: center;
-    background-image: url('Assets-200924/david-edelstein-N4DbvTUDikw-unsplash.jpg');
+    background-image: url('Assets/david-edelstein-N4DbvTUDikw-unsplash.jpg');
     background-position: center;
     background-size: cover;
 }
