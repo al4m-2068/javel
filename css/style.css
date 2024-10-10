@@ -84,6 +84,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 70%;
     height: 100%;
     text-align: center;
@@ -100,14 +101,14 @@ header {
     font-size: 100px;
     margin-bottom: 30px;
 }
-
-.cta p {
+.title p {
     color: white;
     font-size: 18px;
+    margin-bottom: 30px;
 }
-.cta a {
+.title a {
     text-decoration: none;
-    height: max-content;
+    width: max-content;
     color: white;
     padding: 10px 15px;
     font-size: 18px;
@@ -116,16 +117,8 @@ header {
     background-color: rgba(222, 184, 135, 0.7);
     transition-duration: 300ms;
 }
-.cta a:hover {
+.title a:hover {
     background-color: burlywood;
-}
-.cta {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-}
-.cta p {
-    width: 70%;
 }
 
 .bg video {
@@ -211,7 +204,7 @@ header {
     flex-direction: row;
     justify-content: start;
     align-items: center;
-    background-image: url('Assets/david-edelstein-N4DbvTUDikw-unsplash.jpg');
+    background-image: url('david-edelstein-N4DbvTUDikw-unsplash.jpg');
     background-position: center;
     background-size: cover;
 }
